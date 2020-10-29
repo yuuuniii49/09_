@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 	
 	sum = 0	;
 	for(i=0; i<SIZE; i++) {
-		printf("학생 성적을 입력하세요 : ");
+		printf("input 5 score");
 		scanf("%d", &grade[i]);
 		sum += grade[i];
 	}
